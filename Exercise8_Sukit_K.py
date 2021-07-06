@@ -6,14 +6,14 @@ if usernameInput  == "admin"  and passwordInput == "1234":
     print("1. Apple 20")
     print("2. Mango 15")
     print("3. Banana 7")
-    userSelected = int(input(">>"))
-    if userSelected == 1:
+    ProductSelected = int(input(">>"))
+    if ProductSelected == 1:
         amount = int(input("Amount>> "))
         print("result = ",20*amount)
-    elif userSelected == 2:
+    elif ProductSelected == 2:
         amount = int(input("Amount>> "))
         print("result = ",15*amount)
-    elif userSelected == 3:
+    elif ProductSelected == 3:
         amount = int(input("Amount>> "))
         print("result = ",7*amount)
 else:
